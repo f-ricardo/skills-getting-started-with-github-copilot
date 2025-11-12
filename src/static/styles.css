@@ -87,12 +87,18 @@ section h3 {
   font-weight: bold;
 }
 
-.activity-card-participants ul {
-  list-style-type: disc;
-  margin-left: 20px;
+.activity-card-participants ul.participants-list {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
   margin-bottom: 0;
   color: #444;
   font-size: 15px;
+}
+
+.delete-participant:hover {
+  color: #e53935;
+  text-shadow: 0 0 2px #e57373;
 }
 
 .activity-card-participants li {
